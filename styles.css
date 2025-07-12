@@ -1,0 +1,80 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  scroll-behavior: smooth;
+}
+.header {
+  background: url('header_Portfolio.jpeg') no-repeat center center/cover;
+  padding: 6rem 1rem;
+  position: relative;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 3rem;
+  border-radius: 10px;
+}
+.overlay h1, .overlay p, .overlay a {
+  color: white;
+}
+.perfil-img {
+  border-radius: 50%;
+  width: 140px;
+  margin-bottom: 1rem;
+  border: 4px solid white;
+}
+.nav-link {
+  color: #ddd !important;
+}
+.nav-link:hover {
+  color: #a35bd1 !important;
+}
+.download-btn:hover {
+  background-color: #a35bd1;
+  color: white !important;
+  transition: 0.3s;
+}
+h2 {
+  color: #3a3a74;
+  margin-top: 2rem;
+}
+ul {
+  list-style: square;
+}
+.social-links a {
+  color: rgb(252, 247, 205);
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+.social-links a:hover {
+  color: #454337; /* dourado ao passar o rato */
+}
+.download-btn {
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #c0c0c0; /* borda prateada fina */
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  background-color: #4b5155;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Estilo para o link de e-mail no header */
+header a[href^="mailto:"] {
+  color: #faf7cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header a[href^="mailto:"]:hover {
+  color: #c0c0c0;
+  text-decoration: none;
+}
