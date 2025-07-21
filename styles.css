@@ -78,3 +78,37 @@ header a[href^="mailto:"]:hover {
   color: #c0c0c0;
   text-decoration: none;
 }
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+main ul {
+  padding-left: 20px;
+}
+
+main li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.experiencia-lista li {
+  margin-bottom: 20px;
+}
+
+section#perfil p,
+section#experiencia ul,
+section#formacao ul,
+section#competencias ul,
+section#idiomas ul,
+section#interesses ul {
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 1rem;
+  }
+}
