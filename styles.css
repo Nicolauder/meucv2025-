@@ -51,20 +51,18 @@ ul {
   color: #454337; /* dourado ao passar o rato */
 }
 .download-btn {
-  font-weight: 600;
-  padding: 12px 20px;
-  border-radius: 8px;
-  background-color: transparent;
-  color: #ffffff;
-  border: 1px solid #c0c0c0; /* borda prateada fina */
-  transition: all 0.3s ease;
-  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 .download-btn:hover {
-  background-color: #4b5155;
-  color: #000;
+  background-color: #f8f9fa;
+  color: #212529;
   text-decoration: none;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
 /* Estilo para o link de e-mail no header */
@@ -112,3 +110,4 @@ section#interesses ul {
     padding: 0 1rem;
   }
 }
+
