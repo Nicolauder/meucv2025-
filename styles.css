@@ -102,6 +102,8 @@ header a[href^="mailto:"]:hover {
   padding: 10px 25px;
   font-weight: 500;
   transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* BOTÃO DO CABEÇALHO */
@@ -119,8 +121,8 @@ header a[href^="mailto:"]:hover {
 
 /* BOTÃO DO FOOTER */
 footer .download-btn {
-  background-color: #f8f9fa !important;
-  color: #000 !important;
+  background-color: #f8f9fa;
+  color: #000;
   border: none;
   border-radius: 30px;
   padding: 10px 25px;
@@ -131,8 +133,8 @@ footer .download-btn {
 }
 
 footer .download-btn:hover {
-  background-color: #f8f9fa !important;
-  color: #212529 !important;
+  background-color: #e2e6ea;
+  color: #212529;
   text-decoration: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
