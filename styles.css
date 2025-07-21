@@ -111,3 +111,20 @@ section#interesses ul {
   }
 }
 
+footer .download-btn {
+  background-color: #f8f9fa !important;
+  color: #000 !important;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+  margin-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .download-btn:hover {
+  background-color: #e2e6ea !important;
+  color: #000 !important;
+  text-decoration: none;
+}
