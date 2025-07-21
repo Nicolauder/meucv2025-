@@ -102,8 +102,6 @@ header a[href^="mailto:"]:hover {
   padding: 10px 25px;
   font-weight: 500;
   transition: background-color 0.3s ease, color 0.3s ease;
-  text-decoration: none;
-  display: inline-block;
 }
 
 /* BOTÃO DO CABEÇALHO */
@@ -139,7 +137,6 @@ footer .download-btn:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
 }
-
 
 /* SOCIAL */
 .social-links a {
