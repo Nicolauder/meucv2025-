@@ -1,6 +1,4 @@
-/* =====================
-   Estilos base
-===================== */
+/* GERAL */
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f4f4;
@@ -12,6 +10,15 @@ body {
 
 main {
   flex: 1;
+  padding: 0 1rem;
+}
+
+h2 {
+  color: #3a3a74;
+  margin-top: 2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px;
+  font-weight: 600;
 }
 
 ul {
@@ -19,14 +26,31 @@ ul {
   padding-left: 20px;
 }
 
-li {
+main li {
   margin-bottom: 10px;
   line-height: 1.6;
 }
 
-/* =====================
-   Cabeçalho
-===================== */
+.experiencia-lista li {
+  margin-bottom: 20px;
+}
+
+section#perfil p,
+section#experiencia ul,
+section#formacao ul,
+section#competencias ul,
+section#idiomas ul,
+section#interesses ul {
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 1rem;
+  }
+}
+
+/* HEADER */
 .header {
   background: url('header_Portfolio.jpeg') no-repeat center center/cover;
   padding: 6rem 1rem;
@@ -39,7 +63,9 @@ li {
   border-radius: 10px;
 }
 
-.overlay h1, .overlay p, .overlay a {
+.overlay h1,
+.overlay p,
+.overlay a {
   color: white;
 }
 
@@ -58,74 +84,7 @@ li {
   color: #a35bd1 !important;
 }
 
-/* =====================
-   Botões
-===================== */
-.download-btn {
-  border-radius: 30px;
-  padding: 10px 25px;
-  font-weight: 500;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Botão no cabeçalho */
-.header .download-btn {
-  background-color: transparent;
-  color: white;
-  border: 1px solid white;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-}
-
-/* Botão no rodapé */
-footer .download-btn {
-  background-color: #f8f9fa !important;
-  color: #000 !important;
-  border: none;
-  margin-top: 10px;
-  display: inline-block;
-}
-
-footer .download-btn:hover {
-  background-color: #f8f9fa !important;
-  color: #212529 !important;
-  text-decoration: none;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
-
-/* Hover genérico, se necessário */
-.download-btn:hover {
-  background-color: #a35bd1;
-  color: white !important;
-  transition: 0.3s;
-}
-
-/* =====================
-   Títulos e textos
-===================== */
-h2 {
-  color: #3a3a74;
-  margin-top: 2rem;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 4px;
-  font-weight: 600;
-}
-
-section#perfil p,
-section#experiencia ul,
-section#formacao ul,
-section#competencias ul,
-section#idiomas ul,
-section#interesses ul {
-  font-size: 1.05rem;
-}
-
-.experiencia-lista li {
-  margin-bottom: 20px;
-}
-
-/* =====================
-   E-mail
-===================== */
+/* EMAIL no cabeçalho */
 header a[href^="mailto:"] {
   color: #faf7cc;
   text-decoration: none;
@@ -137,9 +96,48 @@ header a[href^="mailto:"]:hover {
   text-decoration: none;
 }
 
-/* =====================
-   Ícones sociais
-===================== */
+/* BOTÕES GERAIS */
+.download-btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* BOTÃO DO CABEÇALHO */
+.header .download-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.header .download-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* BOTÃO DO FOOTER */
+footer .download-btn {
+  background-color: #f8f9fa !important;
+  color: #000 !important;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+  margin-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .download-btn:hover {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* SOCIAL */
 .social-links a {
   color: rgb(252, 247, 205);
   font-size: 1.5rem;
@@ -151,18 +149,7 @@ header a[href^="mailto:"]:hover {
   color: #454337;
 }
 
-/* =====================
-   Responsivo
-===================== */
-@media (max-width: 768px) {
-  main {
-    padding: 0 1rem;
-  }
-}
-
-/* =====================
-   Rodapé fixo
-===================== */
+/* FOOTER */
 footer {
   margin-top: auto;
 }
