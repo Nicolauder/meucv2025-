@@ -128,3 +128,16 @@ footer .download-btn:hover {
   color: #000 !important;
   text-decoration: none;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
